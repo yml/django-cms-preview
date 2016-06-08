@@ -10,5 +10,5 @@ setup(
     url='',
     packages=find_packages(),
     package_data={'preview': ['static/*.*', 'templates/*.*']},
-    scripts=[],
+    scripts=['manage.py'],
 )

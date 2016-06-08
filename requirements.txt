@@ -2,6 +2,8 @@ https://github.com/divio/django-cms/archive/develop.zip
 # needed for cms <3.2
 aldryn-apphook-reload
 django-treebeard>=2.0
+https://github.com/divio/django-cms-explorer/archive/master.zip
+https://github.com/divio/djangocms-text-ckeditor/archive/master.zip
 https://github.com/divio/djangocms-admin-style/archive/master.zip
 https://github.com/divio/djangocms-column/archive/master.zip
 https://github.com/divio/djangocms-flash/archive/master.zip

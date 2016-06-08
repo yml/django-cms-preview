@@ -25,26 +25,17 @@ SECRET_KEY = '=3x!$%2s_5jht5=i-j#9-bfpcup0sn*2&_nelyoql&+0p5itgs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
 # Application definition
 
-
-
-
-
 ROOT_URLCONF = 'preview.urls'
 
 WSGI_APPLICATION = 'preview.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
@@ -58,7 +49,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
@@ -86,6 +76,7 @@ TEMPLATES = [
              os.path.join(BASE_DIR, 'preview', 'templates'),
         ],
         'OPTIONS': {
+            'debug':True,
             'context_processors': [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
